@@ -1,0 +1,113 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px rgb(241, 238, 238);
+}
+
+.blue{
+    color: hsl(221, 100%, 96%);
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+.blue h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+
+.circle{
+    background: linear-gradient(180deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    max-width: max-content;
+    max-height: max-content;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px 33px 5px 33px;
+}
+
+span.percentage{
+    display: block;
+    font-size: 300%;
+    font-weight: 700;
+    color: white;
+}
+
+.portion{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+/* ------------------------------------ End of Blue Portion ----------------- */
+.white{
+    padding: 10px;
+}
+.white h3{
+    margin-left: 10px;
+}
+
+.white .summary{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+img{
+    display: inline-block;
+    margin-top: ;
+}
+
+.one{
+    background-color: hsla(0, 73%, 88%, 0.671);
+}
+.red{
+    color: hsl(0, 100%, 67%);
+}
+
+.two{
+    background-color: hsl(39, 100%, 88%);
+}
+.yellow{
+    color: hsl(39, 100%, 56%);
+}
+
+.three{
+    background-color: hsl(167, 67%, 92%);
+}
+.green{
+    color: hsl(166, 100%, 37%);
+}
+
+.four{
+    background-color: hsl(234, 90%, 88%);
+}
+.blue1{
+    color: hsl(234, 85%, 45%);
+}
+
+.summary span.num{
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+
+span.hundred{
+    font-weight: normal;
+}
+
+.continue a{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(1, 1, 68);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
